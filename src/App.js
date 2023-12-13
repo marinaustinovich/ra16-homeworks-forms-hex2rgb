@@ -1,10 +1,6 @@
-import './App.css';
-import ColorConverter from './components/ColorConverter/ColorConverter/ColorConverter';
+import "./App.css";
+import { ColorConverter } from "./components";
 
-function App() {
-    return (
-      <ColorConverter></ColorConverter>
-    );
-}
+const App = () => <ColorConverter />;
 
 export default App;
